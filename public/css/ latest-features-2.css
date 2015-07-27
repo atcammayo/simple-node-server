@@ -1,0 +1,144 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    float: right;
+    margin-right: 25%;
+}
+
+.whole {
+    width: 900px;
+    padding: 40px;
+    height: 1350px;
+    background: linear-gradient(to bottom, white, #84befe);
+    margin: auto;
+}
+
+.container {
+    width: 900px;
+    background-color: white;
+    position: relative;
+    top: -180px;
+}
+
+.mid {
+    width: 900px;
+    background-color: white;
+    height: 400px;
+}
+
+.nav a {	
+	float:left;
+	width:158px;
+	text-decoration:none;
+	color:white;
+	background-color:#84befe;
+	padding: 10px;
+	border-right:1px solid white;
+	border-left: 1px solid white;
+	text-align:center;
+	border-top-right-radius: 15px;
+}
+
+.nav a:hover {
+	background-color: white;
+	color: #cbe5ff;
+}
+
+.rect a {
+    position: fixed;
+    top: 200px;
+    right: -5px;
+    border: 2px dashed #84befe;
+    color: #84befe;
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.preview {
+    height: 360px;
+    width: 648px;
+    background-color: #84befe;
+    position: relative;
+    top: -200px;
+    left: 150px;
+    font-size: 90px;
+    text-shadow: 5px 5px 10px gray;
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    position: relative;
+	top: 40px;
+	left: 0px;
+	background-color: white;
+	z-index: 1;
+	box-shadow: 5px 5px 10px gray;
+}
+
+.last {
+    width: 900px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 220px;
+}
+
+.left {
+    width: 435px;
+    height: 180px;
+    background-color: white;
+    border: 1px dashed #84befe;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.right {
+    width: 435px;
+    height: 180px;
+    border: 1px dashed #84befe;
+    position: relative;
+    top: -172px;
+    left: 455px;
+}
+
+.left-head {
+    background: linear-gradient(to bottom, lightblue, #84befe); 
+    height: 50px;
+    width: 415px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}
+
+.right-head {
+    background: linear-gradient(to bottom, lightblue, #84befe); 
+    height: 50px;
+    width: 415px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}
+
+.footer {
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: right;
+}
